@@ -16,4 +16,9 @@ public abstract class Variable<T> : ScriptableObject
     {
         currentValue = DefaultValue;
     }
+
+    public void Reset()
+    {
+        CurrentValue = DefaultValue;
+    }
 }
